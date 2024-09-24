@@ -4,25 +4,26 @@
  * @Author: Jinlong Li CSU PhD
  * @Date: 2024-07-11 13:51:21
  * @LastEditors: Jinlong Li CSU PhD
- * @LastEditTime: 2024-07-11 13:59:30
+ * @LastEditTime: 2024-09-24 00:48:20
 -->
 # S2R-ViT for multi-agent cooperative perception: Bridging the gap from simulation to reality
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2303.07601.pdf)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2303.07601-b31b1b.svg)](https://arxiv.org/pdf/2303.07601.pdf) 
 
 
 This is the official implementation of ICRA 2042 paper. "S2R-ViT for multi-agent cooperative perception: Bridging the gap from simulation to reality".
-[Jinlong Li](https://jinlong17.github.io/)
-[Runsheng Xu](https://derrickxunu.github.io/)
-[Xinyu Liu]()
-[Baolu Li]()
-[Qin Zou]()
-[Jiaqi Ma](https://mobility-lab.seas.ucla.edu/)
-[Hongkai Yu](https://scholar.google.com/citations?user=JnQts0kAAAAJ&hl=en)
+[Jinlong Li](https://jinlong17.github.io/),
+[Runsheng Xu](https://derrickxunu.github.io/),
+[Xinyu Liu](https://scholar.google.com/citations?user=fGK5P7IAAAAJ&hl=zh-CN),
+[Baolu Li](https://scholar.google.com/citations?user=d94_GW4AAAAJ&hl=en),
+[Qin Zou](https://scholar.google.com/citations?user=dJ8izFAAAAAJ&hl=en),
+[Jiaqi Ma](https://mobility-lab.seas.ucla.edu/),
+[Hongkai Yu](https://scholar.google.com/citations?user=JnQts0kAAAAJ&hl=en).
 
 
 IEEE International Conference on Robotics and Automation (ICRA) 2024!
 
+## [Project Page](https://jinlong17.github.io/CoMamba/)
 
 <p align="center">
   <img src="./imgs/S2R-ViT.png" alt="teaser" width="90%" height="90%">
@@ -102,11 +103,13 @@ python opencood/tools/inference.py --model_dir ${CHECKPOINT_FOLDER} --fusion_met
 
 ## Citation
 ```shell
-@inproceedings{xu2023v2v4real,
-  title={V2V4Real: A Real-world Large-scale Dataset for Vehicle-to-Vehicle Cooperative Perception},
-  author={Xu, Runsheng and Xia, Xin and Li, Jinlong and Li, Hanzhao and Zhang, Shuo and Tu, Zhengzhong and Meng, Zonglin and Xiang, Hao and Dong, Xiaoyu and Song, Rui and Yu, Hongkai and Zhou, Bolei and Ma, Jiaqi},
-  booktitle={The IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)},
-  year={2023}
+@inproceedings{li2024s2r,
+  title={S2r-vit for multi-agent cooperative perception: Bridging the gap from simulation to reality},
+  author={Li, Jinlong and Xu, Runsheng and Liu, Xinyu and Li, Baolu and Zou, Qin and Ma, Jiaqi and Yu, Hongkai},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={16374--16380},
+  year={2024},
+  organization={IEEE}
 }
 ```
 

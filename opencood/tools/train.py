@@ -14,7 +14,7 @@ from opencood.data_utils.datasets import build_dataset
 
 def train_parser():
     parser = argparse.ArgumentParser(description="synthetic data generation")
-    parser.add_argument("--hypes_yaml", type=str,default='/home/jinlongli/1.Detection_Set/DA_V2V/opencood/hypes_yaml/point_pillar_transformer.yaml',#required=True, #
+    parser.add_argument("--hypes_yaml", type=str,default='./opencood/hypes_yaml/point_pillar_transformer.yaml',#required=True, #
                         help='data generation yaml file needed ')
     parser.add_argument('--model_dir', default='',
                         help='Continued training path')
